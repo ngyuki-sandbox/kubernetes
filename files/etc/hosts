@@ -1,0 +1,5 @@
+127.0.0.1       localhost localhost.localdomain localhost4 localhost4.localdomain4
+192.168.121.9   master
+192.168.121.65  sv01
+192.168.121.66  sv02
+192.168.121.67  sv03

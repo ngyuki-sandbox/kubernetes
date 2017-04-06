@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: httpd
+spec:
+  replicas: 3             # Pod のレプリカ数
+  template:               # Pod のテンプレート
+    metadata:
+      labels:             # Pod に付与するラベル（Deployment のラベルにもなる）
+        app: httpd
+    spec:
+      containers:
+        - name: httpd
+          image: httpd
